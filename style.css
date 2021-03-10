@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    color: #ccc;
+    padding:10em 2em;
+}
+#main{
+   margin: 15em  2em ;
+   text-align: center;
+}
+h1{
+    font-family: roboto400;
+    font-size: 22px;
+    font-weight: 200;
+}
+@media (max-width:700px){
+    #main{
+        padding-top: 5em;
+    }
+}
+@font-face{
+    font-family: roboto500;
+    src: url(Roboto-Medium.ttf);
+}
+@font-face{
+    font-family:roboto400;
+    src: url(Roboto-Regular.ttf);
+}
